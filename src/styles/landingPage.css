@@ -1,27 +1,80 @@
+.App {
+  margin: 0 5%;
+}
+#profile__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+}
 .landing-page {
-    padding-top: 10%;
+  padding-top: 10%;
 }
-.profile{
-text-align: center;
+.mobile-toggle {
+  margin-left: 90%;
 }
-.profile_name{
-    font-size: 20px;
-    font-weight: 900;
+.desktop-share {
+  margin-left: 80%;
+}
+.profile {
+  text-align: center;
+}
+.profile_name {
+  font-size: 20px;
+  font-weight: 900;
 }
 .links-group {
   display: grid;
-  gap: 10%;
+  gap: 5%;
+  text-align: center;
+  margin: 0 5%;
 }
 .links {
-  padding: 5%;
+  padding: 4%;
   border-radius: 8px;
   border: none;
+  background-color: #eaecf0;
+}
+.links:hover {
+  background-color: #d0d5dd;
 }
 .link-texts {
   text-decoration: none;
   color: #101828;
   font-size: 18px;
 }
-.link-texts:hover{
-    color: #1b263b;
+.link-texts:hover {
+    color: #1d263a;
+}
+.slack {
+  margin-right: 12px;
+}
+
+@media (min-width: 576px) {
+  .links {
+    padding: 3%;
+    border-radius: 8px;
+  }
+  .socials {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .links {
+    padding: 2%;
+  }
+  .mobile-toggle {
+    display: none;
+  }
+  .socials {
+    display: block;
+  }
+}
+@media (min-width: 990px) {
+  .landing-page {
+    padding-top: 5%;
+  }
 }
