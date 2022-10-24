@@ -1,0 +1,27 @@
+.landing-page {
+    padding-top: 10%;
+}
+.profile{
+text-align: center;
+}
+.profile_name{
+    font-size: 20px;
+    font-weight: 900;
+}
+.links-group {
+  display: grid;
+  gap: 10%;
+}
+.links {
+  padding: 5%;
+  border-radius: 8px;
+  border: none;
+}
+.link-texts {
+  text-decoration: none;
+  color: #101828;
+  font-size: 18px;
+}
+.link-texts:hover{
+    color: #1b263b;
+}
