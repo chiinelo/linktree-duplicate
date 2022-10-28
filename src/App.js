@@ -63,15 +63,15 @@ function App() {
               Design Books
             </a>
           </button>
-          <div className="socials d-none d-md-block">
+          <div className="socials">
             <img src="../images/slack.svg" id="slack" className="slack" alt="slack-logo"/>
             {/* slack name = chinelo.obigwe@yahoo.com */}
             <img src="../images/Social icon.svg" alt="github-logo" />
           </div>
-          <div className="d-none d-md-block">
+          <div className="">
             <hr></hr>
 
-            <div className="d-flex justify-content-between pb-5 pt-0">
+            <div className="pb-5 pt-0 logo-footer">
               <img src="../images/logo.36d2d48a.svg" alt="" />
               <p>HNG Internship 9 Frontend Task</p>
               <img src="../images/I4G.svg" alt="github-logo" />

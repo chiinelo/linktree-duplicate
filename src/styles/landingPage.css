@@ -47,10 +47,13 @@
   font-size: 18px;
 }
 .link-texts:hover {
-    color: #1d263a;
+  color: #1d263a;
 }
 .slack {
   margin-right: 12px;
+}
+.logo-footer {
+text-align: left;
 }
 
 @media (min-width: 576px) {
@@ -72,9 +75,14 @@
   .socials {
     display: block;
   }
+  .logo-footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 @media (min-width: 990px) {
   .landing-page {
     padding-top: 5%;
   }
+ 
 }
