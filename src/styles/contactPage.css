@@ -1,0 +1,29 @@
+.contact{
+    margin: 5% 15%;
+}
+
+.name-email-input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #888;
+    margin-bottom: 19px;
+}
+.message-input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #888;
+    margin-bottom: 19px;
+    height: g;
+}
+.message-button{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    background: #1570EF;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 6%;
+}

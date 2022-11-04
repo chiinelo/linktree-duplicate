@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import landingPage from "../src/styles/landingPage.css";
+import  "../src/styles/landingPage.css";
 
 function App() {
   return (
@@ -61,6 +61,14 @@ function App() {
               className="link-texts"
             >
               Design Books
+            </a>
+          </button>
+          <button className="links" id="contact">
+            <a
+              href="/contact"
+              className="link-texts"
+            >
+              Contact Me
             </a>
           </button>
           <div className="socials">
