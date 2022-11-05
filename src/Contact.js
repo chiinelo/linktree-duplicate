@@ -2,6 +2,12 @@ import React from 'react'
 import  "../src/styles/contactPage.css";
 
 const contact = () => {
+    const [submitButton, setSubmitButton] = ("false")
+
+
+    const submitForm = () =>{
+        setSubmitButton(alert("Form submitted"))
+    }
   return (
 
 <>
@@ -36,7 +42,8 @@ const contact = () => {
    You agree to providing your data to who may contact you.</label>
 
 
-    <button id='btn__submit' className='message-button mb-3'>Send message</button>
+    <button onClick={submitForm}
+    id='btn__submit'type ="submit" className='message-button  mb-3'>Send message</button>
     
     </div>
           <div className="mt-5 p-5">
